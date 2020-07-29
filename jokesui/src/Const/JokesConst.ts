@@ -1,0 +1,4 @@
+export const GET_RANDOM_JOKE = 'GET_RANDOM_JOKE';
+export type GET_RANDOM_JOKE = typeof GET_RANDOM_JOKE;
+export const INSERT_NEW_JOKE = 'INSERT_NEW_JOKE';
+export type INSERT_NEW_JOKE = typeof INSERT_NEW_JOKE;

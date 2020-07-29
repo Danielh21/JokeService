@@ -11,7 +11,7 @@ export enum ActionTypes {
 
 
 // const rootReducer = combineReducers({
-//     IJokesState,
+//     JokesStore,
 //     IUserState
 // });
 

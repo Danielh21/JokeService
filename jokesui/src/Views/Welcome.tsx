@@ -1,24 +1,21 @@
 import React from 'react';
 import {connect, useDispatch} from "react-redux"
-import {IJokesState, getRandomJoke} from "../Reducer/JokesReducer"
-import {AppDispatch, useAppDispatch, RootState} from '../AppStore'
+import {JokesStore} from "../Types/Index"
 
 const Welcome = () => {
-
-    const
 
 
     return (
         <div>
             <h1>Welcome</h1>
-            <input type="button" onClick={getRandomJoke} value="Get a Joke"/>
+            <input type="button"  value="Get a Joke"/>
         </div>
     );
 
 }
 
 
-// const mapState = (state: IJokesState) =>({
+// const mapState = (state: JokesStore) =>({
 //     JokeState : state
 // })
 
